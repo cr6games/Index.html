@@ -1,1 +1,110 @@
 # Index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Promoção imperdível! Não perca essa chance!">
+    <title>Ofereça a Melhor Oportunidade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        header {
+            background-color: #0a74da;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        section {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .cta-button {
+            background-color: #e03e2d;
+            color: white;
+            padding: 1rem 2.5rem;
+            font-size: 1.5rem;
+            border: none;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #b72a1b;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .feature {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .feature h3 {
+            color: #0a74da;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Transforme sua Vida com Uma Oportunidade Incrível!</h1>
+        <p>Aproveite essa oferta exclusiva e alcance seus objetivos mais rápido.</p>
+    </header>
+
+    <section>
+        <h2>Por que escolher essa oferta?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Benefício 1</h3>
+                <p>Aprenda estratégias comprovadas que vão te ajudar a alcançar o sucesso.</p>
+            </div>
+            <div class="feature">
+                <h3>Benefício 2</h3>
+                <p>Material exclusivo com conteúdo atualizado e de alta qualidade.</p>
+            </div>
+            <div class="feature">
+                <h3>Benefício 3</h3>
+                <p>Acesso a um suporte especializado que vai te ajudar em todas as etapas.</p>
+            </div>
+        </div>
+        <a href="https://sun.eduzz.com/1872804?a=79210644" target="_blank">
+            <button class="cta-button">Aproveitar Agora!</button>
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2025 - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
